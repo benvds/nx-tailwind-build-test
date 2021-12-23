@@ -4,8 +4,7 @@ import NxWelcome from './nx-welcome';
 export function App() {
   return (
     <>
-      <NxWelcome title="my-app" />
-      <div />
+      <div className='text-3xl bg-green-300'>test css build</div>
     </>
   );
 }
