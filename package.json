@@ -5,6 +5,7 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
+    "build:prod": "NODE_ENV=production pnpm nx run my-app:build --configuration:production --skip-nx-cache",
     "test": "nx test"
   },
   "private": true,
